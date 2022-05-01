@@ -1,0 +1,19 @@
+﻿@model FootBallNew.Models.Match
+
+@{
+    ViewBag.Title = "CreateAccount";
+}
+
+<h2>CreateAccount</h2>
+
+@using (Html.BeginForm("Index"))
+{
+    <p>@ViewBag.result</p>
+
+}
+
+
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
